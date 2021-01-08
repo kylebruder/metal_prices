@@ -74,7 +74,7 @@ def return_results():
     else:
         return '''
         Enter args... example:
-        commodity?start_date=2019-05-15&end_date=2019-06-07&commodity=gold
+        commodity?start_date=2019-05-15&end_date=2019-06-07&commodity_type=gold\n
         '''
 
 app.run(port=8080)
